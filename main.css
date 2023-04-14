@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+#calBody {
+    margin: 200px;
+    margin: 15px;
+    padding: 8px;
+    height: max-content;
+    width: max-content;
+    border: 2.5px solid rgb(83, 83, 83);
+    background-color: rgb(46, 45, 45);
+    border-radius: 1.5rem;
+    font-size: 22px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+#numKeys {
+    background-color: rgb(46, 45, 45);
+}
+
+#display {
+    overflow: hidden;
+    margin: 5px;
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    color: beige;
+    background-color: rgb(19, 17, 17);
+    text-shadow: 0 1px 0;
+    border-radius: 1.5rem;
+    cursor: progress;
+}
+
+button {
+    width: 42px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5rem;
+    color: azure;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.arKeys {
+    width: 42px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: rgb(216, 162, 15);
+    box-shadow: darkgrey;
+    /* font-weight: bolder; */
+}

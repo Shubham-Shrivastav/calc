@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|| CALCULATOR ||</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="calBody">
+        <input type="text" id="display" disabled>
+        <div class="keys">
+            <div id="numKeys">
+                <button onclick="updateDisplay (1)">1</button>
+                <button onclick="updateDisplay(2)">2</button>
+                <button onclick="updateDisplay(3)">3</button>
+                <button onclick="addOperator('+'), updateDisplay()" class="arKeys" id="add">+</button>
+                <br>
+                <button onclick="updateDisplay(4)">4</button>
+                <button onclick="updateDisplay(5)">5</button>
+                <button onclick="updateDisplay(6)">6</button>
+                <button onclick="updateDisplay('-'), subOperator() " class="arKeys" id="subtract">-</button>
+                <br>
+                <button onclick="updateDisplay(7)">7</button>
+                <button onclick="updateDisplay(8)">8</button>
+                <button onclick="updateDisplay(9)">9</button>
+                <button onclick="updateDisplay('*'), multiply()" class="arKeys" id="multiply">x</button>
+                <br>
+                <button onclick="squ('√')">√</button>
+                <button onclick="updateDisplay(0)">0</button>
+                <button onclick="updateDisplay('.')">·</button>
+                <button onclick="updateDisplay('%'), modOperator()" class="arKeys" id="modulus">%</button>
+                <br>
+                <button onclick="clearDisplay()">↺</button>
+                <button onclick="backSpace()">🠔</button>
+                <button onclick="updateDisplay('/'), divOperator()" class="arKeys" id="divide">÷</button>
+
+                <button onclick="calcy()" class="arKeys">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
